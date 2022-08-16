@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Food Landing Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/all.min.css" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/master.css" />
+    </head>
+    <body>
+        <div class="landing-page">
+            <div class="overlay"></div>
+            <div class="setting-box">
+                <div class="color-settings">
+                    <h3>Colors</h3>
+                    <ul class="colors">
+                        <li data-color="#61d800"></li>
+                        <li data-color="#6002ee"></li>
+                        <li data-color="#00E676"></li>
+                        <li data-color="#ab47bc"></li>
+                        <li data-color="#2196f3"></li>
+                    </ul>
+                    <div class="gear">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                </div>
+                <div class="random-bg-option">
+                    <h3>Random BG</h3>
+                    <div>
+                        <span class="yes active" data-background="yes"
+                            >Yes</span
+                        >
+                        <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+                <div class="show-bullets-option">
+                    <h3>Show Bullets</h3>
+                    <div>
+                        <span class="block active" data-display="block"
+                            >Yes</span
+                        >
+                        <span class="none" data-display="none">No</span>
+                    </div>
+                </div>
+                <button class="reset-options">Reset Option</button>
+            </div>
+            <div class="container">
+                <header class="landing-page-header">
+                    <div class="logo">Saleh Restaurant</div>
+                    <nav class="links-container">
+                        <ul>
+                            <!-- class="active" -->
+                            <li>
+                                <a href="#" data-section=".skills">About</a>
+                            </li>
+                            <li>
+                                <a href="#" data-section=".gallery">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#" data-section=".timeline">Skills</a>
+                            </li>
+                            <li>
+                                <a href="#" data-section=".features"
+                                    >Features</a
+                                >
+                            </li>
+                        </ul>
+                        <button class="toggle-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </nav>
+                </header>
+                <div class="intro">
+                    <h1 class="intro-title">Elite <span>Restaurant</span></h1>
+                    <p class="intro-text">
+                        We are elite restaurant that has started working since
+                        1985.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Navigation Bullets -->
+        <div class="navigation-bullets">
+            <div class="bullet" data-section=".skills">
+                <div class="tooltip">Skills</div>
+            </div>
+            <div class="bullet" data-section=".gallery">
+                <div class="tooltip">Gallery</div>
+            </div>
+            <div class="bullet" data-section=".timeline">
+                <div class="tooltip">Timeline</div>
+            </div>
+            <div class="bullet" data-section=".features">
+                <div class="tooltip">Features</div>
+            </div>
+        </div>
+        <!-- End Navigation Bullets -->
+        <!-- Start About Us -->
+        <div class="container">
+            <div class="about-us">
+                <div class="info">
+                    <h2>About Us</h2>
+                    <p>
+                        We Are Group of Chefs that make the most elite and
+                        delicious dishs in the world.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="./imgs/about-us.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- End About Us -->
+        <!-- Start Skills -->
+        <div class="skills">
+            <div class="container">
+                <h2 class="skills-title">Our Skills</h2>
+                <div class="skill-box-wrapper">
+                    <div class="skill-box">
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-progress">
+                            <span data-width="90%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-progress">
+                            <span data-width="50%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-name">JAVASCRIPT</div>
+                        <div class="skill-progress">
+                            <span data-width="70%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Skills -->
+        <!-- Start Gallery -->
+        <div class="gallery">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-box">
+                    <div><img src="./imgs/img-1.jpg" alt="Image 1" /></div>
+                    <div><img src="./imgs/img-2.jpg" alt="Image 2" /></div>
+                    <div><img src="./imgs/img-3.jpg" alt="Image 3" /></div>
+                    <div><img src="./imgs/img-4.jpg" alt="Image 4" /></div>
+                    <div><img src="./imgs/img-5.jpg" alt="" /></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Gallery -->
+        <!-- Start Timeline -->
+        <div class="timeline">
+            <div class="container">
+                <div class="timeline-content">
+                    <div class="year">2022</div>
+
+                    <div class="left">
+                        <div class="content">
+                            <h3>Europe Branch Opening</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Laborum molestiae cum voluptas
+                                veniam ab vero.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="right">
+                        <div class="content">
+                            <h3>USA Branch Opening</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Laborum molestiae cum voluptas
+                                veniam ab vero.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="year">2023</div>
+
+                    <div class="left">
+                        <div class="content">
+                            <h3>Jordan Branch Opening</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Laborum molestiae cum voluptas
+                                veniam ab vero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Timeline -->
+        <!-- Start Features -->
+        <div class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="feature-boxes">
+                    <div class="feature">
+                        <img src="./imgs/features-1.png" alt="" />
+                        <h3>Database</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Dolor, similique dolore! Asperiores optio est
+                            voluptas!
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <img src="./imgs/features-2.png" alt="" />
+                        <h3>Movies</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Dolor, similique dolore! Asperiores optio est
+                            voluptas!
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <img src="./imgs/features-3.png" alt="" />
+                        <h3>Cloud and Servers</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Dolor, similique dolore! Asperiores optio est
+                            voluptas!
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <img src="./imgs/features-4.png" alt="" />
+                        <h3>Database</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Dolor, similique dolore! Asperiores optio est
+                            voluptas!
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <img src="./imgs/features-5.png" alt="" />
+                        <h3>Services</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Dolor, similique dolore! Asperiores optio est
+                            voluptas!
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <img src="./imgs/features-6.png" alt="" />
+                        <h3>Database</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Dolor, similique dolore! Asperiores optio est
+                            voluptas!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Features -->
+        <!-- Start Testimonials -->
+        <div class="testimonials">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="testi-box">
+                    <p>
+                        The Dishes are greate and the treatment is on another
+                        level.
+                    </p>
+                    <div class="person-info">
+                        <div class="image">
+                            <img
+                                src="https://via.placeholder.com/50/000"
+                                alt=""
+                            />
+                        </div>
+                        <h4>Mohammed Kaseer</h4>
+                        <p>CEO at company.com</p>
+                    </div>
+                </div>
+                <div class="testi-box">
+                    <p>
+                        The Dishes are greate and the treatment is on another
+                        level.
+                    </p>
+                    <div class="person-info">
+                        <div class="image">
+                            <img
+                                src="https://via.placeholder.com/50/ddd"
+                                alt=""
+                            />
+                        </div>
+                        <h4>Mohanad Abdalhadi</h4>
+                        <p>CEO at company.com</p>
+                    </div>
+                </div>
+                <div class="testi-box">
+                    <p>
+                        The Dishes are greate and the treatment is on another
+                        level.
+                    </p>
+                    <div class="person-info">
+                        <div class="image">
+                            <img
+                                src="https://via.placeholder.com/50/ccc"
+                                alt=""
+                            />
+                        </div>
+                        <h4>Saleh Abuhussein</h4>
+                        <p>CEO at company.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- End Testimonials -->
+        <div class="footer">All Rights Reserved &#169;</div>
+        <script src="./js/all.min.js"></script>
+        <script src="./js/master.js"></script>
+    </body>
+</html>
